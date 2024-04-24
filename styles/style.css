@@ -56,6 +56,14 @@ small {
     border-radius: 15px;
 }
 
+.btn-primary {
+    background-color: var(--primary) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+
 .navbar {
     box-shadow: 0 1px 2px 0 var(--secondary);
 }
@@ -63,5 +71,9 @@ small {
 .navbar-brand {
     font-weight: 900;
     font-family: 'Hind Siliguri', sans-serif !important;
+}
+
+header section h1 span {
+    color: var(--accent);
 }
 

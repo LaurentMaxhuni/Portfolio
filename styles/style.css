@@ -58,14 +58,20 @@ small {
 
 .btn-primary {
     background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
 }
 
 .btn-primary:hover {
-    background-color: var(--primary-hover);
+    background-color: var(--primary-hover) !important;
+}
+
+header {
+    background-color: var(--background);
 }
 
 .navbar {
     box-shadow: 0 1px 2px 0 var(--secondary);
+    background-color: var(--background) !important;
 }
 
 .navbar-brand {

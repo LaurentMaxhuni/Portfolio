@@ -1,6 +1,10 @@
 @import "../styles/variables.css";
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Hind Siliguri';
     font-weight: 400;
@@ -142,4 +146,17 @@ header section h1 span {
 header section #presentation {
     display: grid;
     place-self: center;
+}
+
+#journey #journeyMessage {
+    display: grid;
+    place-self: center;
+}
+
+#journey h1 span {
+    color: var(--accent);
+}
+
+#journey p span {
+    color: var(--secondary);
 }

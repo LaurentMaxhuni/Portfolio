@@ -3,6 +3,7 @@
 
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -53,11 +54,6 @@ h5 {
 small {
     font-size: 0.750rem;
     /* 12px */
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: var(--primary);
-    border-radius: 15px;
 }
 
 .navbar-toggler {
@@ -159,4 +155,8 @@ header section #presentation {
 
 #journey p span {
     color: var(--secondary);
+}
+
+#links .card {
+
 }

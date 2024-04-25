@@ -153,6 +153,20 @@ header section #presentation {
     place-self: center;
 }
 
+#journey img {
+    animation: backInLeft;
+    animation-timeline: view();
+    animation-duration: 20s;
+    animation-range-end: 50% contain 25%;
+}
+
+#journey h1, #journey p { 
+    animation: backInRight;
+    animation-timeline: view();
+    animation-duration: 20s;
+    animation-range-end: 50% contain 25%;
+}
+
 #journey h1 span {
     color: var(--accent);
 }

@@ -1,11 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../assets/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="../assets/logo.svg" alt="" class="img-fluid mx-1" width="35"
+                        height="35">MyPortfolio</a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="../html/index.html">Home</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="../html/projects.html">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="mt-5 py-5 mb-5" id="skills">
+        <div class="container py-5">
+            <h1 class="fw-bold fs-1 wow animate__animated animate__backInLeft animate__slow">My
+                <span>Skills</span>:
+            </h1>
+            <div class="row">
+                <div class="owl-carousel wow animate__animated animate__backInRight animate__slow">
+                    <div class="card px-3 py-3">
+                        <h1 class="fw-bold fs-1">HTML<i class="devicon-html5-plain-wordmark colored mx-3"></i></h1>
+                        <p class="lead">HTML stands for HyperText Markup Language. It's the standard language used to
+                            create and design web pages. In HTML, text content is marked up with tags to define its
+                            structure and presentation on a webpage.</p>
+                        <div class="button-wrapper">
+                            <a href="http://weatherio-la.netlify.app" target="_blank" rel="noopener noreferrer"><button
+                                    class="btn btn-primary">Visit Site <i
+                                        class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="card px-3 py-3">
+                        <h1 class="fw-bold fs-1">CSS<i class="devicon-css3-plain-wordmark colored"></i></h1>
+                        <p class="lead">
+                            CSS stands for Cascading Style Sheets. It's a style sheet language used to describe the
+                            presentation of a document written in HTML or XML. CSS describes how elements should be
+                            rendered on screen, or on other media.</p>
+                        <div class="button-wrapper">
+                            <a href="../html/projects.html" target="_blank" rel="noopener noreferrer"><button
+                                    class="btn btn-primary">Visit Site <i
+                                        class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="card px-3 py-3">
+                        <h1 class="fw-bold fs-1">JavaScript<i class="devicon-javascript-plain colored mx-3"></i></h1>
+                        <p class="lead">JavaScript is a versatile programming language primarily used for creating
+                            dynamic and interactive content on web pages. It was originally developed by Netscape as a
+                            client-side scripting language for web browsers, but it has since evolved to be used on both
+                            the client and server sides of web development.</p>
+                        <div class="button-wrapper">
+                            <a href="../html/projects.html" target="_blank" rel="noopener noreferrer"><button
+                                    class="btn btn-primary">Visit Site <i
+                                        class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="card px-3 py-3">
+                        <h1 class="fw-bold fs-1">jQuery<i class="devicon-jquery-plain-wordmark colored mx-3"></i></h1>
+                        <p class="lead">
+                            jQuery is a fast, small, and feature-rich JavaScript library that simplifies many of the
+                            complexities of JavaScript programming, particularly when it comes to manipulating HTML
+                            documents, handling events, and making AJAX (Asynchronous JavaScript and XML) requests.</p>
+                        <div class="button-wrapper">
+                            <a href="../html/projects.html" target="_blank" rel="noopener noreferrer"><button
+                                    class="btn btn-primary">Visit Site <i
+                                        class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="card px-3 py-3">
+                        <h1 class="fw-bold fs-1">Bootstrap <i class="devicon-bootstrap-plain colored mx-3"></i></h1>
+                        <p class="lead">Bootstrap is a popular open-source framework that helps simplify the process of designing and building responsive and mobile-first websites. It provides pre-designed HTML, CSS, and JavaScript components and templates that can be easily customized and used in web development projects. </p>
+                        <div class="button-wrapper">
+                            <a href="../html/projects.html" target="_blank" rel="noopener noreferrer"><button
+                                    class="btn btn-primary">Visit Site <i
+                                        class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                margin: 15,
+                responsiveClass: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                loop: true,
+                navText: ["<i class='bi bi-arrow-left'></i>", "<i class='bi bi-arrow-right mx-5'></i>"],
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true,
+                    },
+                    600: {
+                        items: 1,
+                        nav: false,
+                    },
+                    1000: {
+                        items: 3.5,
+                        nav: true,
+                    }
+                }
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+    <script>
+        new WOW().init()
+    </script>
+    <script>
+        $('.navbar-nav>li>a').on('click', function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
 </body>
+
 </html>

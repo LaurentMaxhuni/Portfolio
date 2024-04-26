@@ -4,7 +4,7 @@
 html {
     overflow: hidden;
     scroll-behavior: smooth;
-    background-color: var(--background);
+    background-color: var(--background) !important;
 }
 
 body {
@@ -136,6 +136,6 @@ header {
     font-family: 'Hind Siliguri', sans-serif !important;
 }
 
-#skills h1 span {
-    color: var(--accent);
+.card {
+    height: 0 !important;
 }

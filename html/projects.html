@@ -44,44 +44,64 @@
             </div>
         </nav>
         <section class="mt-5 py-5 mb-5" id="projects">
-            <div class="container">
-                <h1 class="fw-bold fs-1">My <span>Projects</span>:</h1>
+            <div class="container py-5">
+                <h1 class="fw-bold fs-1 wow animate__animated animate__backInLeft animate__slow">My
+                    <span>Projects</span>:</h1>
                 <div class="row">
-                    <div class="owl-carousel">
+                    <div class="owl-carousel wow animate__animated animate__backInRight animate__slow">
                         <div class="card px-3 py-3">
                             <h1 class="fw-bold fs-1">Weatherio! <i class="bi bi-clouds-sun"></i></h1>
                             <p class="lead">Weatherio is a weather app that allows you to search for the weather in any
-                                city in the world. It uses the OpenWeatherMap API to get the weather data.</p>
+                                city in the world. It uses the OpenWeatherMap API to get the weather data. It also has
+                                48 hour and 8 day weather information in that specified city.</p>
                             <div class="button-wrapper">
-                                <a href="http://weatherio-la.netlify.app" target="_blank" rel="noopener noreferrer"><button
-                                    class="btn btn-primary">Visit Site <i class="bi bi-box-arrow-up-right"></i></button></a>
+                                <a href="http://weatherio-la.netlify.app" target="_blank"
+                                    rel="noopener noreferrer"><button class="btn btn-primary">Visit Site <i
+                                            class="bi bi-box-arrow-up-right"></i></button></a>
                             </div>
                         </div>
                         <div class="card px-3 py-3">
-                            <h1 class="fw-bold fs-1">Weatherio! <i class="bi bi-clouds-sun"></i></h1>
-                            <p class="lead">Weatherio is a weather app that allows you to search for the weather in any
-                                city in the world. It uses the OpenWeatherMap API to get the weather data.</p>
+                            <h1 class="fw-bold fs-1">Coming soon... <i class="bi bi-clouds-sun"></i></h1>
+                            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae
+                                sapiente autem iste delectus reprehenderit odit non asperiores debitis sed recusandae
+                                iure, dicta voluptate nemo, cum aperiam in atque aliquid explicabo!</p>
                             <div class="button-wrapper">
-                                <a href="http://weatherio-la.netlify.app" target="_blank" rel="noopener noreferrer"><button
-                                    class="btn btn-primary">Visit Site <i class="bi bi-box-arrow-up-right"></i></button></a>
+                                <a href="../html/projects.html" target="_blank" rel="noopener noreferrer"><button
+                                        class="btn btn-primary">Visit Site <i
+                                            class="bi bi-box-arrow-up-right"></i></button></a>
                             </div>
                         </div>
                         <div class="card px-3 py-3">
-                            <h1 class="fw-bold fs-1">Weatherio! <i class="bi bi-clouds-sun"></i></h1>
-                            <p class="lead">Weatherio is a weather app that allows you to search for the weather in any
-                                city in the world. It uses the OpenWeatherMap API to get the weather data.</p>
+                            <h1 class="fw-bold fs-1">Coming soon... <i class="bi bi-clouds-sun"></i></h1>
+                            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae
+                                sapiente autem iste delectus reprehenderit odit non asperiores debitis sed recusandae
+                                iure, dicta voluptate nemo, cum aperiam in atque aliquid explicabo!</p>
                             <div class="button-wrapper">
-                                <a href="http://weatherio-la.netlify.app" target="_blank" rel="noopener noreferrer"><button
-                                    class="btn btn-primary">Visit Site <i class="bi bi-box-arrow-up-right"></i></button></a>
+                                <a href="../html/projects.html" target="_blank" rel="noopener noreferrer"><button
+                                        class="btn btn-primary">Visit Site <i
+                                            class="bi bi-box-arrow-up-right"></i></button></a>
                             </div>
                         </div>
                         <div class="card px-3 py-3">
-                            <h1 class="fw-bold fs-1">Weatherio! <i class="bi bi-clouds-sun"></i></h1>
-                            <p class="lead">Weatherio is a weather app that allows you to search for the weather in any
-                                city in the world. It uses the OpenWeatherMap API to get the weather data.</p>
+                            <h1 class="fw-bold fs-1">Coming soon... <i class="bi bi-clouds-sun"></i></h1>
+                            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae
+                                sapiente autem iste delectus reprehenderit odit non asperiores debitis sed recusandae
+                                iure, dicta voluptate nemo, cum aperiam in atque aliquid explicabo!</p>
                             <div class="button-wrapper">
-                                <a href="http://weatherio-la.netlify.app" target="_blank" rel="noopener noreferrer"><button
-                                    class="btn btn-primary">Visit Site <i class="bi bi-box-arrow-up-right"></i></button></a>
+                                <a href="../html/projects.html" target="_blank" rel="noopener noreferrer"><button
+                                        class="btn btn-primary">Visit Site <i
+                                            class="bi bi-box-arrow-up-right"></i></button></a>
+                            </div>
+                        </div>
+                        <div class="card px-3 py-3">
+                            <h1 class="fw-bold fs-1">Coming soon... <i class="bi bi-clouds-sun"></i></h1>
+                            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae
+                                sapiente autem iste delectus reprehenderit odit non asperiores debitis sed recusandae
+                                iure, dicta voluptate nemo, cum aperiam in atque aliquid explicabo!</p>
+                            <div class="button-wrapper">
+                                <a href="../html/projects.html" target="_blank" rel="noopener noreferrer"><button
+                                        class="btn btn-primary">Visit Site <i
+                                            class="bi bi-box-arrow-up-right"></i></button></a>
                             </div>
                         </div>
                     </div>
@@ -100,14 +120,19 @@
             $(".owl-carousel").owlCarousel({
                 margin: 15,
                 responsiveClass: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                loop: true,
+                navText: ["<i class='bi bi-arrow-left'></i>", "<i class='bi bi-arrow-right mx-5'></i>"],
                 responsive: {
                     0: {
-                        items: 1.5,
-                        nav: true
+                        items: 1,
+                        nav: true,
                     },
                     600: {
-                        items: 2.5,
-                        nav: false
+                        items: 1    ,
+                        nav: false,
                     },
                     1000: {
                         items: 3.5,

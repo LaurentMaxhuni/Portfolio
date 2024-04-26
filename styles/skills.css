@@ -1,4 +1,4 @@
-@import "variables.css";
+@import "../styles/variables.css";
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 
 html {
@@ -122,7 +122,7 @@ small {
     background-color: var(--primary-hover) !important;
 }
 
-header {
+#skills {
     background-color: var(--background);
 }
 
@@ -138,4 +138,8 @@ header {
 
 #skills h1 span {
     color: var(--accent);
+}
+
+#skills .card {
+    height: 450px !important;
 }

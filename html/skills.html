@@ -126,13 +126,14 @@
         $(document).ready(function () {
             $(".owl-carousel").owlCarousel({
                 margin: 15,
-                responsiveClass: true,
                 autoplay: true,
                 autoplayTimeout: 3000,
                 autoplayHoverPause: true,
                 loop: true,
                 navText: ["<i class='bi bi-arrow-left'></i>", "<i class='bi bi-arrow-right mx-5'></i>"],
                 autoHeight: true,
+                responsiveClass: true,
+                responsiveBaseElement: 'body',
                 responsive: {
                     0: {
                         items: 1,
